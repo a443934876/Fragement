@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
     private Button save;
     private StudentDao dao;
     private LinearLayout ll_result;
+    private Button delete;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         et_name = (EditText) findViewById(R.id.et_name);
         rg_sex = (RadioGroup) findViewById(R.id.rg_sex);
         save = (Button) findViewById(R.id.save);
+        delete= (Button) findViewById(R.id.delete);
         //找到界面下方的空白的线性布局
         ll_result = (LinearLayout) findViewById(R.id.ll_result);
         dao = new StudentDao(MainActivity.this);
@@ -54,11 +56,24 @@ public class MainActivity extends AppCompatActivity {
                 dao.add(name, sex);
                 Toast.makeText(MainActivity.this, "数据添加成功", Toast.LENGTH_SHORT).show();
                 refreshData();
-
             }
-
-
         });
+        delete.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String name = et_name.getText().toString().trim();
+                if (TextUtils.isEmpty(name)) {
+                    Toast.makeText(MainActivity.this, "请输入学生的姓名", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+                dao.delete(name);
+                Toast.makeText(MainActivity.this, "数据删除成功", Toast.LENGTH_SHORT).show();
+                refreshData();
+            }
+        });
+
+
+
     }
 
     /*
