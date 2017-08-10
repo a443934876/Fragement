@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/getPrivateFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="生成私有文件"
+        android:textSize="20sp"
+
+        />
+
+    <Button
+        android:id="@+id/getPublicFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="生成可读可写的文件"
+        android:textSize="20sp"
+
+        />
+    <Button
+        android:id="@+id/getReadOnlyFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="生成只读的文件"
+
+        />
+    <Button
+        android:id="@+id/getWriteOnlyFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="生成只写的文件"
+
+        />
+
+</LinearLayout>

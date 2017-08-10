@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="0dip"
+        android:layout_height="match_parent">
+        <Button
+            android:onClick="showSound"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="声音"/>
+        <Button
+            android:onClick="showStroge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="存储"/>
+        <Button
+            android:onClick="showShow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="显示"/>
+
+    </LinearLayout>
+    <FrameLayout
+        android:id="@+id/fl"
+        android:layout_weight="2"
+        android:layout_width="0dip"
+        android:layout_height="match_parent">
+
+
+    </FrameLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,87 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Administrator\AndroidStudioProjects\Fragement\10_学生信息记录系统-v2\src\main\AndroidManifest.xml:2:1-16:12
+	package
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\Fragement\10_学生信息记录系统-v2\src\main\AndroidManifest.xml:2:70-96
+		INJECTED from C:\Users\Administrator\AndroidStudioProjects\Fragement\10_学生信息记录系统-v2\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrator\AndroidStudioProjects\Fragement\10_学生信息记录系统-v2\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Administrator\AndroidStudioProjects\Fragement\10_学生信息记录系统-v2\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrator\AndroidStudioProjects\Fragement\10_学生信息记录系统-v2\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\Fragement\10_学生信息记录系统-v2\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\Administrator\AndroidStudioProjects\Fragement\10_学生信息记录系统-v2\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrator\AndroidStudioProjects\Fragement\10_学生信息记录系统-v2\src\main\AndroidManifest.xml
+application
+ADDED from C:\Users\Administrator\AndroidStudioProjects\Fragement\10_学生信息记录系统-v2\src\main\AndroidManifest.xml:4:5-14:19
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\02b97ebab856f2ce44e7711d86b11aa7ed8773a6\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\2cbd38ef2f99256b6341b6be306593c8e0b01b1d\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\45dd19ce67662a6462214d84601ac6271eb7d619\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\073a06ab82068088970cb51f920f47d4200ee57e\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\828c5af003747aaa4db729004a3e17727ce7c58f\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\cdf3eeca1bf59657f2cbf15981ea40a7d7120e75\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\b8de82c09663452c0aa6bbbdeab0c4a5127d0e75\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\2426502eabe334303e5f146592bcc7ba166656cb\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\4e17dcb6e98f9bb806075735f50f865dabbe8444\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.android\build-cache\57d1d128e5bcbc7f3e4e120617384ebdcd9fc24d\output\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\Fragement\10_学生信息记录系统-v2\src\main\AndroidManifest.xml:5:9-41
+	android:supportsRtl
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\Fragement\10_学生信息记录系统-v2\src\main\AndroidManifest.xml:6:9-35
+	android:roundIcon
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\Fragement\10_学生信息记录系统-v2\src\main\AndroidManifest.xml:5:42-87
+	android:allowBackup
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\Fragement\10_学生信息记录系统-v2\src\main\AndroidManifest.xml:4:18-44
+	android:icon
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\Fragement\10_学生信息记录系统-v2\src\main\AndroidManifest.xml:4:45-73
+	android:theme
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\Fragement\10_学生信息记录系统-v2\src\main\AndroidManifest.xml:6:36-67
+activity#com.example.a09_.MainActivity
+ADDED from C:\Users\Administrator\AndroidStudioProjects\Fragement\10_学生信息记录系统-v2\src\main\AndroidManifest.xml:7:9-13:20
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\Fragement\10_学生信息记录系统-v2\src\main\AndroidManifest.xml:7:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Administrator\AndroidStudioProjects\Fragement\10_学生信息记录系统-v2\src\main\AndroidManifest.xml:8:13-12:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Administrator\AndroidStudioProjects\Fragement\10_学生信息记录系统-v2\src\main\AndroidManifest.xml:9:17-69
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\Fragement\10_学生信息记录系统-v2\src\main\AndroidManifest.xml:9:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Administrator\AndroidStudioProjects\Fragement\10_学生信息记录系统-v2\src\main\AndroidManifest.xml:11:17-77
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\Fragement\10_学生信息记录系统-v2\src\main\AndroidManifest.xml:11:27-74
+uses-sdk
+INJECTED from C:\Users\Administrator\AndroidStudioProjects\Fragement\10_学生信息记录系统-v2\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\02b97ebab856f2ce44e7711d86b11aa7ed8773a6\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\2cbd38ef2f99256b6341b6be306593c8e0b01b1d\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\45dd19ce67662a6462214d84601ac6271eb7d619\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\073a06ab82068088970cb51f920f47d4200ee57e\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\828c5af003747aaa4db729004a3e17727ce7c58f\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\cdf3eeca1bf59657f2cbf15981ea40a7d7120e75\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\b8de82c09663452c0aa6bbbdeab0c4a5127d0e75\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\2426502eabe334303e5f146592bcc7ba166656cb\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\4e17dcb6e98f9bb806075735f50f865dabbe8444\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.android\build-cache\57d1d128e5bcbc7f3e4e120617384ebdcd9fc24d\output\AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\02b97ebab856f2ce44e7711d86b11aa7ed8773a6\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\Administrator\AndroidStudioProjects\Fragement\10_学生信息记录系统-v2\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrator\AndroidStudioProjects\Fragement\10_学生信息记录系统-v2\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Administrator\AndroidStudioProjects\Fragement\10_学生信息记录系统-v2\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrator\AndroidStudioProjects\Fragement\10_学生信息记录系统-v2\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\02b97ebab856f2ce44e7711d86b11aa7ed8773a6\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\2cbd38ef2f99256b6341b6be306593c8e0b01b1d\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\45dd19ce67662a6462214d84601ac6271eb7d619\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\073a06ab82068088970cb51f920f47d4200ee57e\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\828c5af003747aaa4db729004a3e17727ce7c58f\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\cdf3eeca1bf59657f2cbf15981ea40a7d7120e75\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\b8de82c09663452c0aa6bbbdeab0c4a5127d0e75\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\2426502eabe334303e5f146592bcc7ba166656cb\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\4e17dcb6e98f9bb806075735f50f865dabbe8444\output\AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\02b97ebab856f2ce44e7711d86b11aa7ed8773a6\output\AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\02b97ebab856f2ce44e7711d86b11aa7ed8773a6\output\AndroidManifest.xml:26:9-47
