@@ -6,6 +6,10 @@ import android.database.sqlite.SQLiteCantOpenDatabaseException;
 import android.database.sqlite.SQLiteDatabase;
 
 import com.example.studentinfosystem.db.StudentDBOpenHelper;
+import com.example.studentinfosystem.domain.Student;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * 学生信息数据库的dao（data access objcet）
@@ -67,4 +71,24 @@ public class StudentDao {
         db.close();//释放资源
         return sex;
     }
+    /*
+    * 获取全部的学生信息
+    * */
+    public List<Student> findAll(){
+        List<Student> students=new ArrayList<Student>();
+        SQLiteDatabase db=helper.getReadableDatabase();
+        Cursor cursor= db.rawQuery("select name,sex from student",null);
+        while (cursor.moveToNext()){
+            String name=cursor.getString(0);
+            String sex=cursor.getString(1);
+            Student student=new Student();
+            student.setName(name);
+            student.setSex(sex);
+            students.add(student);
+        }
+        cursor.close();
+        db.close();
+        return students;
+    }
+
 }
