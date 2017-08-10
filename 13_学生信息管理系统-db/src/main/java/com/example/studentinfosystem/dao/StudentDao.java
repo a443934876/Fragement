@@ -54,10 +54,17 @@ public class StudentDao {
      * @param name 姓名
      * @return 学生性别
      */
-    public void find(String name) {
+    public String find(String name) {
+        String sex=null;
         SQLiteDatabase db=helper.getReadableDatabase();
         //结果集 游标
         Cursor cursor=db.rawQuery("select sex from student where name=?",new String[]{name});
+        boolean result=cursor.moveToNext();
+        if (result){
+            sex=cursor.getString(0);
+        }
+        cursor.close();
         db.close();//释放资源
+        return sex;
     }
 }
