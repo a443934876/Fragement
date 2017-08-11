@@ -124,6 +124,10 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\02b97ebab856f2ce44e7711d86b11aa7ed8773a6\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
     {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\Fragement\\16_学生信息管理系统-db-listview-v2\\build\\intermediates\\res\\merged\\debug\\drawable\\delete.jpg",
+        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\Fragement\\16_学生信息管理系统-db-listview-v2\\src\\main\\res\\drawable\\delete.jpg"
+    },
+    {
         "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\Fragement\\16_学生信息管理系统-db-listview-v2\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\02b97ebab856f2ce44e7711d86b11aa7ed8773a6\\output\\res\\drawable\\notification_bg_low.xml"
     },

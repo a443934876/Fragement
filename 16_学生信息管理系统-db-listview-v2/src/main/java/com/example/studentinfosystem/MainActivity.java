@@ -14,14 +14,11 @@ import android.widget.ListView;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.example.studentinfosystem.dao.StudentDao;
 import com.example.studentinfosystem.domain.Student;
-
 import java.util.List;
 import java.util.Random;
 
-import javax.crypto.spec.IvParameterSpec;
 
 public class MainActivity extends AppCompatActivity {
     private EditText et_name;
@@ -30,7 +27,8 @@ public class MainActivity extends AppCompatActivity {
     private StudentDao dao;
     private LinearLayout ll_result;
     private ListView lv;
-
+    private List<Student> students;
+    private MyAdapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,13 +41,13 @@ public class MainActivity extends AppCompatActivity {
         lv = (ListView) findViewById(R.id.lv);
         dao = new StudentDao(MainActivity.this);
         refreshData();
-        String [] sex1={"male","female"};
-        String [] name1={"刘一","陈二","张三","李四","王五","赵六","孙七","周八","吴九","郑十"};
-        Random random=new Random();
-        for (int i=0 ;i<100;i++){
-            String name2=name1[random.nextInt(9)];
-            String sex2=sex1[random.nextInt(2)];
-            dao.add(name2,sex2);
+        String[] sex1 = {"male", "female"};
+        String[] name1 = {"刘一", "陈二", "张三", "李四", "王五", "赵六", "孙七", "周八", "吴九", "郑十"};
+        Random random = new Random();
+        for (int i = 0; i < 100; i++) {
+            String name2 = name1[random.nextInt(9)]+i;
+            String sex2 = sex1[random.nextInt(2)];
+            dao.add(name2, sex2);
         }
         save.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -68,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
                 }
                 dao.add(name, sex);
                 Toast.makeText(MainActivity.this, "数据添加成功", Toast.LENGTH_SHORT).show();
-//                refreshData();
+                refreshData();
             }
         });
 
@@ -79,47 +77,67 @@ public class MainActivity extends AppCompatActivity {
      * 获取数据库的全部记录，刷新显示数据
      */
     private void refreshData() {
-        final List<Student> students = dao.findAll();
-        lv.setAdapter(new BaseAdapter() {
-            @Override
-            public int getCount() {
+        students = dao.findAll();
+        if (adapter == null) {
+            adapter = new MyAdapter();
+            lv.setAdapter(adapter);
+        } else {
+            //通知数据适配器更新数据，而不是new出来新的数据适配器
+            adapter.notifyDataSetChanged();
+        }
 
-                    return students.size() ;
+    }
+
+    private class MyAdapter extends BaseAdapter {
+        @Override
+        public int getCount() {
+
+            return students.size();
+        }
+
+        @Override
+        public Object getItem(int i) {
+            return null;
+        }
+
+        @Override
+        public long getItemId(int i) {
+            return 0;
+        }
+
+        @Override
+        public View getView(final int i, View view, ViewGroup viewGroup) {
+            View view1 = null;
+            if (view == null) {
+                //把一个布局xml文件转化成view对象
+                view1 = View.inflate(MainActivity.this, R.layout.item, null);
+            } else {
+                view1 = view;
             }
-
-            @Override
-            public Object getItem(int i) {
-                return null;
+            //在view里面查找孩子控件
+            TextView tv_name = view1.findViewById(R.id.tv_name);
+            ImageView iv_sex = view1.findViewById(R.id.iv_sex);
+            final Student student = students.get(i);
+            String sex = student.getSex();
+            if ("male".equals(sex)) {
+                iv_sex.setImageResource(R.drawable.nan);
+            } else {
+                iv_sex.setImageResource(R.drawable.nv);
             }
-
-            @Override
-            public long getItemId(int i) {
-                return 0;
-            }
-
-            @Override
-            public View getView(int i, View view, ViewGroup viewGroup) {
-                View view1 = null;
-                if (view == null) {
-                    //把一个布局xml文件转化成view对象
-                    view1 = View.inflate(MainActivity.this, R.layout.item, null);
-                } else {
-                    view1 = view;
+            tv_name.setText(student.getName());
+            view1.findViewById(R.id.iv_delete).setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Student student = students.get(i);
+                    String name = student.getName();
+                    //从数据库删除数据
+                    dao.delete(name);
+                    Toast.makeText(MainActivity.this, "数据删除成功", Toast.LENGTH_SHORT).show();
+                    refreshData();
                 }
-                //在view里面查找孩子控件
-                TextView tv_name = view.findViewById(R.id.tv_name);
-                ImageView iv_sex = view.findViewById(R.id.iv_sex);
-                Student student = students.get(i);
-                String sex = student.getSex();
-                if ("male".equals(sex)) {
-                    iv_sex.setImageResource(R.drawable.nan);
-                } else {
-                    iv_sex.setImageResource(R.drawable.nv);
-                }
-                tv_name.setText(student.getName());
-
-                return view1;
-            }
-        });
+            });
+            return view1;
+        }
     }
 }
+
