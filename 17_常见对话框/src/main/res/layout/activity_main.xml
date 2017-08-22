@@ -2,20 +2,34 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    >
+    android:orientation="vertical">
 
     <Button
         android:id="@+id/bt_confirm01"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="确定取消对话框"
-       />
+        android:text="确定取消对话框" />
+
     <Button
         android:id="@+id/bt_confirm02"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="单选对话框"
-        />
+        android:text="单选对话框" />
+
+    <Button
+        android:id="@+id/bt_confirm03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="多选对话框" />
+    <Button
+        android:id="@+id/bt_confirm04"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="进度对话框" />
+    <Button
+        android:id="@+id/bt_confirm05"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="进度条对话框" />
 
 </LinearLayout>
