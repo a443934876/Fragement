@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
                 try {
                     Log.i("TAG", "线程名"+Thread.currentThread().getName());
                     Thread.sleep(10000);
+
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }

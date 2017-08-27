@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
     private Handler handler = new Handler() {
         @Override
         public void handleMessage(Message msg) {
+            pd.dismiss();
             switch (msg.what) {
                 case SUCCESS:
                     try {
@@ -79,6 +80,9 @@ public class MainActivity extends AppCompatActivity {
                 }
                 //http://sj.apidata.cn/?mobile=13488888888
                 final String path = "http://sj.apidata.cn/?mobile=" + phone;
+                pd=new ProgressDialog(MainActivity.this);
+                pd.setMessage("正在获取数据请稍后......");
+                pd.show();
                 new Thread() {
                     @Override
                     public void run() {

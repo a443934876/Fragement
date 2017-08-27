@@ -5,6 +5,7 @@
     android:orientation="vertical">
 
     <EditText
+        android:textSize="20dp"
         android:id="@+id/et_phone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -15,7 +16,8 @@
         android:id="@+id/bt_test"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="测试" />
+        android:textSize="20sp"
+        android:text="查询" />
 
     <RelativeLayout
 
@@ -25,8 +27,8 @@
         <ImageView
 
             android:id="@+id/iv_phone"
-            android:layout_width="30sp"
-            android:layout_height="30sp"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
             android:src="@drawable/phone" />
 
         <TextView
@@ -38,7 +40,7 @@
             android:layout_toRightOf="@id/iv_phone"
             android:gravity="center_vertical"
             android:textColor="#90ff0000"
-            android:textSize="20sp" />
+            android:textSize="40sp" />
 
         <TextView
             android:id="@+id/tv_address1"
@@ -47,7 +49,7 @@
             android:layout_below="@+id/iv_phone"
             android:text="归属地："
             android:textColor="#880000ff"
-            android:textSize="18sp" />
+            android:textSize="40sp" />
 
 
         <TextView
@@ -57,7 +59,7 @@
             android:layout_below="@id/iv_phone"
             android:layout_toRightOf="@+id/tv_address1"
             android:textColor="#880000ff"
-            android:textSize="18sp" />
+            android:textSize="40sp" />
 
         <TextView
             android:id="@+id/tv_types1"
@@ -65,8 +67,8 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/tv_address1"
             android:text="号码类型："
-            android:textColor="#88ffff00"
-            android:textSize="18sp" />
+            android:textColor="#88ff00ea"
+            android:textSize="40sp" />
 
         <TextView
             android:id="@+id/tv_types"
@@ -74,8 +76,9 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/tv_address1"
             android:layout_toRightOf="@id/tv_types1"
-            android:textColor="#88ffff00"
-            android:textSize="18sp" />
+
+            android:textColor="#f800ff08"
+            android:textSize="40sp" />
 
     </RelativeLayout>
 
