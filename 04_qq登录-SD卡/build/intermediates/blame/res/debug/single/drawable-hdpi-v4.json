@@ -36,12 +36,12 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\02b97ebab856f2ce44e7711d86b11aa7ed8773a6\\output\\res\\drawable-hdpi-v4\\notification_bg_low_normal.9.png"
     },
     {
-        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\Fragement\\04_qq登录-SD卡\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\02b97ebab856f2ce44e7711d86b11aa7ed8773a6\\output\\res\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\Fragement\\04_qq登录-SD卡\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\02b97ebab856f2ce44e7711d86b11aa7ed8773a6\\output\\res\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\Fragement\\04_qq登录-SD卡\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\02b97ebab856f2ce44e7711d86b11aa7ed8773a6\\output\\res\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\Fragement\\04_qq登录-SD卡\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",

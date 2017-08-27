@@ -1,5 +1,6 @@
 package com.example.a22_;
 
+import android.app.ProgressDialog;
 import android.os.Handler;
 import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
@@ -33,6 +34,8 @@ public class MainActivity extends AppCompatActivity {
     private TextView tv_address;
     private TextView tv_types;
     private Button bt_test;
+    private ProgressDialog pd;
+
     private Handler handler = new Handler() {
         @Override
         public void handleMessage(Message msg) {
@@ -40,7 +43,8 @@ public class MainActivity extends AppCompatActivity {
                 case SUCCESS:
                     try {
                         JSONObject dataJSON= (JSONObject) msg.obj;
-                        tv_address.setText(dataJSON.getString("province")+dataJSON.getString("city"));
+                        String address=dataJSON.getString("province")+dataJSON.getString("city");
+                        tv_address.setText(address);
                         tv_phone.setText(dataJSON.getString("mobile"));
                         tv_types.setText(dataJSON.getString("types"));
                     } catch (JSONException e) {

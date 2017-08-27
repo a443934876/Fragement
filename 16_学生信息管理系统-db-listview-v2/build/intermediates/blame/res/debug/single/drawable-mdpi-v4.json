@@ -36,12 +36,12 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\02b97ebab856f2ce44e7711d86b11aa7ed8773a6\\output\\res\\drawable-mdpi-v4\\abc_ic_star_black_48dp.png"
     },
     {
-        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\Fragement\\16_学生信息管理系统-db-listview-v2\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\02b97ebab856f2ce44e7711d86b11aa7ed8773a6\\output\\res\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\Fragement\\16_学生信息管理系统-db-listview-v2\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\02b97ebab856f2ce44e7711d86b11aa7ed8773a6\\output\\res\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\Fragement\\16_学生信息管理系统-db-listview-v2\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\02b97ebab856f2ce44e7711d86b11aa7ed8773a6\\output\\res\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
         "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\Fragement\\16_学生信息管理系统-db-listview-v2\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_black_16dp.png",
@@ -72,12 +72,12 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\02b97ebab856f2ce44e7711d86b11aa7ed8773a6\\output\\res\\drawable-mdpi-v4\\abc_popup_background_mtrl_mult.9.png"
     },
     {
-        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\Fragement\\16_学生信息管理系统-db-listview-v2\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\02b97ebab856f2ce44e7711d86b11aa7ed8773a6\\output\\res\\drawable-mdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\Fragement\\16_学生信息管理系统-db-listview-v2\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\02b97ebab856f2ce44e7711d86b11aa7ed8773a6\\output\\res\\drawable-mdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\Fragement\\16_学生信息管理系统-db-listview-v2\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\02b97ebab856f2ce44e7711d86b11aa7ed8773a6\\output\\res\\drawable-mdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\Fragement\\16_学生信息管理系统-db-listview-v2\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_half_black_16dp.png",
