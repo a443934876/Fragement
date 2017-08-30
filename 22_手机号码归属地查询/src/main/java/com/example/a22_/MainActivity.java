@@ -1,6 +1,7 @@
 package com.example.a22_;
 
 import android.app.ProgressDialog;
+import android.graphics.Bitmap;
 import android.os.Handler;
 import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
@@ -73,6 +74,7 @@ public class MainActivity extends AppCompatActivity {
         bt_test.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                
                 String phone = et_phone.getText().toString().trim();
                 if (TextUtils.isEmpty(phone)) {
                     Toast.makeText(MainActivity.this, "电话号码不能为空", Toast.LENGTH_SHORT).show();
